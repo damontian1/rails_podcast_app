@@ -1,0 +1,22 @@
+ <div id="podcast_show">
+	<div id="show_banner">
+		<div class="wrapper_skinny">
+			<h1><%= @podcast.title %></h1>
+			<p class="description"><%= @podcast.description %></p>
+			<% unless @podcast.itunes.blank? %>
+				<%= link_to "iTunes", @podcast.itunes, class: "subscribe_link" %>
+			<% end %>
+			<% unless @podcast.stitcher.blank? %>
+				<%= link_to "Stitcher", @podcast.stitcher, class: "subscribe_link" %>
+			<% end %>
+			<% unless @podcast.podbay.blank? %>
+				<%= link_to "Podbay", @podcast.podbay, class: "subscribe_link" %>
+			<% end %>
+		</div>
+	</div>
+
+	<div id="breadcrumb">
+		<%= link_to "All Podcast", podcasts_path %>
+
+
+</div>
