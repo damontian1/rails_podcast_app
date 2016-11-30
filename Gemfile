@@ -12,7 +12,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
-gem 'aws-sdk', '< 2.0' 
+gem 'aws-sdk', '< 2.0'
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
 
 group :development, :test do 
   gem 'byebug'
