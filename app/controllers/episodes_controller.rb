@@ -39,7 +39,7 @@ class EpisodesController < ApplicationController
 	end
 
 	private
-
+ 
 	def find_podcast
 		@podcast = Podcast.find(params[:podcast_id])
 	end
