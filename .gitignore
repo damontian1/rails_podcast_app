@@ -18,3 +18,10 @@
 
 # Ignore public images
 /public/system
+
+# Ignore ds_store files
+.DS_Store
+app/.DS_Store
+app/assets/.DS_Store
+app/assets/javascripts/.DS_Store
+db/.DS_Store
