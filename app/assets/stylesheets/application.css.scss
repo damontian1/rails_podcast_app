@@ -2,6 +2,7 @@ $white: #FFFFFF;
 $highlight: #d2674e;
 $dark: #22292e;
 $light: #EDEFF5;
+$testColor: lightblue;
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -58,7 +59,7 @@ body {
 }
 
 .button_highlight {
-	background: $highlight;
+	background: $testColor;
 	transition: background .4s ease-in-out;
 	&:hover {
 		background: darken($highlight, 7.5%);
