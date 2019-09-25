@@ -1,0 +1,24 @@
+{
+  "name": "rails_podcast_app",
+  "version": "1.0.0",
+  "description": "LIVE DEMO: https://rails-podcast-app.herokuapp.com/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "rails s -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damontian1/rails_podcast_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damontian1/rails_podcast_app/issues"
+  },
+  "homepage": "https://github.com/damontian1/rails_podcast_app#readme"
+}
